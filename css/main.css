@@ -17,14 +17,23 @@ h2 {
   color: #fff;
 }
 
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
 .nav a {
   border-bottom: .1em solid currentColor;
   color: #fff;
   text-decoration: none;
 }
 
-.logo {
+svg {
   width: 64px;
+  height: 64px;
+  fill: #fff;
 }
 
 .banner-content {
